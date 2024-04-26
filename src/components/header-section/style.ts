@@ -24,3 +24,21 @@ export const divTitle = styled.div`
   align-items: end;
   gap: 7.125rem; //114px
 `
+
+export const Button = styled.button`
+  max-width: 9.938rem; //159px
+  width: 100%;
+
+  background-color: #db4444;
+
+  padding-top: 1rem; //16px
+  padding-bottom: 1rem; //16px
+
+  font-size: 1rem; //16px
+  font-weight: 600;
+
+  color: #fafafa;
+
+  border: none;
+  border-radius: 3%;
+`

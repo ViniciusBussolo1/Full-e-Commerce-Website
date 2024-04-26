@@ -10,14 +10,23 @@ import ImageCard from '../../assets/card/image-card-01.svg'
 
 import * as S from './style'
 
-export function Card() {
+interface CardProps {
+  discount?: boolean
+  numberDiscount?: string
+}
+
+export function Card({ numberDiscount, discount }: CardProps) {
   return (
     <S.divCard>
       <S.Card>
         <S.divImage>
-          <S.divDiscount>
-            <S.spanDiscount>-40%</S.spanDiscount>
-          </S.divDiscount>
+          {discount ? (
+            <S.divDiscount>
+              <S.spanDiscount>-{numberDiscount}%</S.spanDiscount>
+            </S.divDiscount>
+          ) : (
+            ''
+          )}
 
           <S.Icons>
             <Heart />

@@ -45,11 +45,11 @@ export function Today() {
         </HeaderSection>
 
         <S.divCards>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card discount={true} numberDiscount="40" />
+          <Card discount={true} numberDiscount="40" />
+          <Card discount={true} numberDiscount="40" />
+          <Card discount={true} numberDiscount="40" />
+          <Card discount={true} numberDiscount="40" />
         </S.divCards>
 
         <S.divAllProducts>
