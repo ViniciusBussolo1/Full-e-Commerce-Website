@@ -10,7 +10,7 @@ export function Today() {
   return (
     <S.Container>
       <S.divToday>
-        <HeaderSection nameSection="Today’s">
+        <HeaderSection nameSection="Today’s" arrow={true}>
           <Title title="Flash Sales" />
           <S.Days>
             <S.Day>

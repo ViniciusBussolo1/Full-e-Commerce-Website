@@ -10,7 +10,7 @@ import * as S from './style'
 
 interface HeaderSectionProps extends ComponentProps<'header'> {
   nameSection: string
-  arrow?: boolean
+  arrow?: true | false | undefined
 }
 
 export function HeaderSection({
@@ -23,7 +23,13 @@ export function HeaderSection({
       <NameSection name={nameSection} />
       <S.div>
         <S.divTitle>{children}</S.divTitle>
-        {arrow ? <S.Button>View All</S.Button> : <Arrows />}
+        {arrow === true ? (
+          <Arrows />
+        ) : arrow === false ? (
+          <S.Button>View All</S.Button>
+        ) : (
+          ''
+        )}
       </S.div>
     </S.Header>
   )

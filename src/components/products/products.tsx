@@ -9,7 +9,7 @@ export function Products() {
   return (
     <S.Container>
       <S.divProducts>
-        <HeaderSection nameSection="Our Products">
+        <HeaderSection nameSection="Our Products" arrow={true}>
           <Title title="Explore Our Products" />
         </HeaderSection>
         <S.divCards>

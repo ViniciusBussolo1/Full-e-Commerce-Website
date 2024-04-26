@@ -10,7 +10,7 @@ export function Month() {
   return (
     <S.Container>
       <S.divMonth>
-        <HeaderSection nameSection="This Month" arrow={true}>
+        <HeaderSection nameSection="This Month" arrow={false}>
           <Title title="Best Selling Products" />
         </HeaderSection>
         <S.divCards>

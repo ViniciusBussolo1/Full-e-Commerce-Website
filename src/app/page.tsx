@@ -1,6 +1,7 @@
 import { Banner } from '@/components/banner/banner'
 import { Categories } from '@/components/categories/categories'
 import { Category } from '@/components/category/category'
+import { Featured } from '@/components/featured/featured'
 import { Header } from '@/components/header/header'
 import { HeaderTop } from '@/components/header/header-top/header-top'
 import { Month } from '@/components/month/month'
@@ -18,6 +19,7 @@ export default function Home() {
       <Month />
       <Banner />
       <Products />
+      <Featured />
     </>
   )
 }

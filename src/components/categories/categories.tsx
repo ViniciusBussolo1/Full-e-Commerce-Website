@@ -13,7 +13,7 @@ export function Categories() {
   return (
     <S.Container>
       <S.divCategories>
-        <HeaderSection nameSection="Categories">
+        <HeaderSection nameSection="Categories" arrow={true}>
           <Title title="Browse By Category" />
         </HeaderSection>
         <S.divCards>
