@@ -7,30 +7,30 @@ import * as S from './styles'
 export function Header() {
   return (
     <S.ContainerHeader>
-      <S.header>
-        <S.h1>Exclusive</S.h1>
+      <S.Header>
+        <S.H1>Exclusive</S.H1>
 
         <nav>
-          <S.ul>
-            <S.li>Home</S.li>
-            <S.li>Contact</S.li>
-            <S.li>About</S.li>
-            <S.li>Sign Up</S.li>
-          </S.ul>
+          <S.Ul>
+            <S.Li>Home</S.Li>
+            <S.Li>Contact</S.Li>
+            <S.Li>About</S.Li>
+            <S.Li>Sign Up</S.Li>
+          </S.Ul>
         </nav>
 
-        <S.DivProfile>
-          <S.DivInput>
+        <S.divProfile>
+          <S.divInput>
             <S.Input type="text" placeholder="What are you looking for?" />
             <Search size={24} style={{ marginTop: 4 }} />
-          </S.DivInput>
+          </S.divInput>
 
-          <S.DivIcons>
+          <S.divIcons>
             <Heart size={28} style={{ cursor: 'pointer' }} />
             <ShoppingCart size={28} style={{ cursor: 'pointer' }} />
-          </S.DivIcons>
-        </S.DivProfile>
-      </S.header>
+          </S.divIcons>
+        </S.divProfile>
+      </S.Header>
     </S.ContainerHeader>
   )
 }

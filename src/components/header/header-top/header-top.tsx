@@ -7,16 +7,16 @@ export function HeaderTop() {
   return (
     <S.Container>
       <S.Div>
-        <S.DivTitle>
-          <S.title>
+        <S.divTitle>
+          <S.Title>
             Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
-          </S.title>
+          </S.Title>
           <S.Link href="/">ShopNow</S.Link>
-        </S.DivTitle>
+        </S.divTitle>
 
-        <S.DivLenguage>
+        <S.divLenguage>
           <S.Span>English</S.Span> <ChevronDown color="white" size={20} />
-        </S.DivLenguage>
+        </S.divLenguage>
       </S.Div>
     </S.Container>
   )

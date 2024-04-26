@@ -20,7 +20,7 @@ export const Div = styled.div`
   gap: 14rem; //224px
 `
 
-export const title = styled.h2`
+export const Title = styled.h2`
   color: #ffff;
   font-size: 0.875rem; //14px
   font-weight: medium;
@@ -31,13 +31,13 @@ export const Link = styled.a`
   font-weight: semi-bold;
 `
 
-export const DivTitle = styled.div`
+export const divTitle = styled.div`
   display: flex;
   align-items: center;
   gap: 0.5rem; //8px
 `
 
-export const DivLenguage = styled.div`
+export const divLenguage = styled.div`
   display: flex;
   align-items: center;
   gap: 0.5rem; //8px

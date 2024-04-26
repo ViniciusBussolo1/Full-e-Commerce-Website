@@ -12,7 +12,7 @@ export const ContainerHeader = styled.div`
   border-bottom: 1px solid #d9d9d9;
 `
 
-export const header = styled.header`
+export const Header = styled.header`
   max-width: 73.125rem; //1170px
   width: 100%;
 
@@ -21,25 +21,25 @@ export const header = styled.header`
   justify-content: space-between;
 `
 
-export const h1 = styled.h1`
+export const H1 = styled.h1`
   font-size: 1.5rem; //24px
   font-weight: bold;
 `
 
-export const ul = styled.ul`
+export const Ul = styled.ul`
   display: flex;
   align-items: center;
   gap: 28px;
 `
 
-export const li = styled.li`
+export const Li = styled.li`
   list-style: none;
   font-size: 1rem; //16px
   font-weight: regular;
   color: #000000;
 `
 
-export const DivProfile = styled.div`
+export const divProfile = styled.div`
   max-width: 21.688rem; //347px
   width: 100%;
 
@@ -48,7 +48,7 @@ export const DivProfile = styled.div`
   align-items: center;
 `
 
-export const DivInput = styled.div`
+export const divInput = styled.div`
   max-width: 15.188rem; //243px
   width: 100%;
 
@@ -67,7 +67,7 @@ export const Input = styled.input`
   }
 `
 
-export const DivIcons = styled.div`
+export const divIcons = styled.div`
   display: flex;
   align-items: center;
   gap: 1.25rem; //20px
