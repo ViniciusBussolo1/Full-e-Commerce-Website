@@ -25,13 +25,6 @@ export const divCards = styled.div`
   gap: 2rem; //32px
 `
 
-export const divAllProducts = styled.div`
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-`
-
 export const Days = styled.div`
   max-width: 18.875rem; //302px
   widht: 100%;
@@ -71,6 +64,12 @@ export const Point = styled.div`
   border-radius: 50%;
 
   background-color: #e07575;
+`
+export const divAllProducts = styled.div`
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
 `
 
 export const buttonAllProducts = styled.button`

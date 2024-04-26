@@ -25,5 +25,5 @@ export const divCards = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1.5rem; //24px
+  gap: 12px; //24px
 `

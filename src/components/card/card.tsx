@@ -17,44 +17,42 @@ interface CardProps {
 
 export function Card({ numberDiscount, discount }: CardProps) {
   return (
-    <S.divCard>
-      <S.Card>
-        <S.divImage>
-          {discount ? (
-            <S.divDiscount>
-              <S.spanDiscount>-{numberDiscount}%</S.spanDiscount>
-            </S.divDiscount>
-          ) : (
-            ''
-          )}
+    <S.Card>
+      <S.divImage>
+        {discount ? (
+          <S.divDiscount>
+            <S.spanDiscount>-{numberDiscount}%</S.spanDiscount>
+          </S.divDiscount>
+        ) : (
+          ''
+        )}
 
-          <S.Icons>
-            <Heart />
-            <Eye />
-          </S.Icons>
+        <S.Icons>
+          <Heart />
+          <Eye />
+        </S.Icons>
 
-          <Image src={ImageCard} alt="Imagem do card" />
-        </S.divImage>
+        <Image src={ImageCard} alt="Imagem do card" />
+      </S.divImage>
 
-        <S.divDescription>
-          <S.H5>HAVIT HV-G92 Gamepad</S.H5>
-          <S.divPrice>
-            <S.priceDiscount>$120</S.priceDiscount>
-            <S.priceOriginal>$160</S.priceOriginal>
-          </S.divPrice>
-          <S.divStars>
-            <S.Stars>
-              <Image src={Star} alt="Imagem de uma estrela" />
-              <Image src={Star} alt="Imagem de uma estrela" />
-              <Image src={Star} alt="Imagem de uma estrela" />
-              <Image src={Star} alt="Imagem de uma estrela" />
-              <Image src={Star} alt="Imagem de uma estrela" />
-            </S.Stars>
+      <S.divDescription>
+        <S.H5>HAVIT HV-G92 Gamepad</S.H5>
+        <S.divPrice>
+          <S.priceDiscount>$120</S.priceDiscount>
+          <S.priceOriginal>$160</S.priceOriginal>
+        </S.divPrice>
+        <S.divStars>
+          <S.Stars>
+            <Image src={Star} alt="Imagem de uma estrela" />
+            <Image src={Star} alt="Imagem de uma estrela" />
+            <Image src={Star} alt="Imagem de uma estrela" />
+            <Image src={Star} alt="Imagem de uma estrela" />
+            <Image src={Star} alt="Imagem de uma estrela" />
+          </S.Stars>
 
-            <S.countStars>(88)</S.countStars>
-          </S.divStars>
-        </S.divDescription>
-      </S.Card>
-    </S.divCard>
+          <S.countStars>(88)</S.countStars>
+        </S.divStars>
+      </S.divDescription>
+    </S.Card>
   )
 }

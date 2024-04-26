@@ -1,9 +1,5 @@
 import styled from 'styled-components'
 
-// export const divCard = styled.div`
-//   width: 100%;
-// `
-
 export const Card = styled.div`
   max-width: 16.875rem; //270px
   height: 21.875rem; //350px
@@ -20,7 +16,7 @@ export const divImage = styled.div`
   position: relative;
 `
 
-export const divDiscount = styled.div`
+export const divNew = styled.div`
   max-width: 3.438rem; //55px
   width: 100%;
 
@@ -33,19 +29,20 @@ export const divDiscount = styled.div`
   justify-content: center;
   align-items: center;
 
-  background-color: #db4444;
+  background-color: #00ff66;
 
   position: absolute;
   top: 15px;
   left: 10px;
 `
 
-export const spanDiscount = styled.span`
+export const spanNew = styled.span`
   font-size: 0.75rem; //12px
   font-weight: regular;
 
   color: #fafafa;
 `
+
 export const Icons = styled.div`
   display: flex;
   flex-direction: column;
@@ -112,4 +109,52 @@ export const countStars = styled.span`
   font-weight: 600;
 
   color: #6185a5;
+`
+export const divColors = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; //8px
+`
+
+export const buttonColor = styled.button`
+  width: 1.25rem; //20px
+  height: 1.25rem; //20px
+
+  border-radius: 50%;
+  border: none;
+
+  background-color: #db4444;
+
+  cursor: pointer;
+`
+
+export const buttonSelected = styled.div`
+  width: 1.25rem; //20px
+  height: 1.25rem; //20px
+
+  border-radius: 50%;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid #000000;
+
+  cursor: pointer;
+`
+
+export const divButtonSelected = styled.div`
+  width: 0.75rem; //12px
+  height: 0.75rem; //12px
+
+  border-radius: 50%;
+
+  background-color: #fb1314;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
 `
