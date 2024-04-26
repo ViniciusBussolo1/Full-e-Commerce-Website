@@ -4,6 +4,7 @@ import { Category } from '@/components/category/category'
 import { Featured } from '@/components/featured/featured'
 import { Header } from '@/components/header/header'
 import { HeaderTop } from '@/components/header/header-top/header-top'
+import { Information } from '@/components/information/information'
 import { Month } from '@/components/month/month'
 import { Products } from '@/components/products/products'
 import { Today } from '@/components/today/today'
@@ -20,6 +21,7 @@ export default function Home() {
       <Banner />
       <Products />
       <Featured />
+      <Information />
     </>
   )
 }
