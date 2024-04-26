@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
   width: 100%;
-  height: 41.813rem; //669px
+  height: 15.625rem; //250px
 
   display: flex;
   justify-content: center;
@@ -13,6 +13,7 @@ export const Container = styled.section`
 export const divInformation = styled.div`
   max-width: 58.938rem; //943px
   width: 100%;
+  height: 10.063rem; //161px
 
   display: flex;
   justify-content: space-between;

@@ -2,6 +2,7 @@ import { Banner } from '@/components/banner/banner'
 import { Categories } from '@/components/categories/categories'
 import { Category } from '@/components/category/category'
 import { Featured } from '@/components/featured/featured'
+import { Footer } from '@/components/footer/footer'
 import { Header } from '@/components/header/header'
 import { HeaderTop } from '@/components/header/header-top/header-top'
 import { Information } from '@/components/information/information'
@@ -22,6 +23,7 @@ export default function Home() {
       <Products />
       <Featured />
       <Information />
+      <Footer />
     </>
   )
 }
