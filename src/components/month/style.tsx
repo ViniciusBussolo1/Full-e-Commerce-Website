@@ -7,7 +7,7 @@ export const Container = styled.section`
   display: flex;
   justify-content: center;
 
-  margin-top: 6.25rem; //100p
+  margin-top: 6.25rem; //100px
 `
 
 export const divMonth = styled.div`

@@ -1,3 +1,4 @@
+import { Banner } from '@/components/banner/banner'
 import { Categories } from '@/components/categories/categories'
 import { Category } from '@/components/category/category'
 import { Header } from '@/components/header/header'
@@ -14,6 +15,7 @@ export default function Home() {
       <Today />
       <Categories />
       <Month />
+      <Banner />
     </>
   )
 }

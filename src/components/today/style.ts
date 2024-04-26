@@ -90,5 +90,5 @@ export const buttonAllProducts = styled.button`
   color: #fafafa;
 
   border: none;
-  border-radius: 2%;
+  border-radius: 0.313rem; //5px
 `

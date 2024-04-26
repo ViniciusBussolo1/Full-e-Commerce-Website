@@ -40,5 +40,5 @@ export const Button = styled.button`
   color: #fafafa;
 
   border: none;
-  border-radius: 3%;
+  border-radius: 0.313rem; //5px
 `
