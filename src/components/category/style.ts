@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
-  height: 40.625rem; //650px
+  height: 36.25rem; //580px
 
   display: flex;
   justify-content: center;
@@ -28,6 +28,8 @@ export const Ul = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  padding: 0;
 `
 
 export const Li = styled.li`
@@ -155,9 +157,11 @@ export const Button = styled.button`
 
   border-radius: 50%;
   border: none;
+
+  cursor: pointer;
 `
 
-export const buttonSelected = styled.button`
+export const buttonSelected = styled.div`
   width: 0.875rem; //14px
   height: 0.875rem; //14px
 
@@ -173,7 +177,7 @@ export const buttonSelected = styled.button`
   cursor: pointer;
 `
 
-export const divButtonSelected = styled.button`
+export const divButtonSelected = styled.div`
   width: 0.625rem; //10px
   height: 0.625rem; //10px
 
