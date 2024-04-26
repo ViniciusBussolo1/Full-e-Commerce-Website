@@ -17,40 +17,7 @@ export function HeaderSection({ nameSection, children }: HeaderSectionProps) {
     <S.Header>
       <NameSection name={nameSection} />
       <S.div>
-        <S.divTitle>
-          {children}
-          {/* <Title title={title} />
-          <S.Days>
-            <S.Day>
-              <S.Text>Days</S.Text>
-              <S.Number>03</S.Number>
-            </S.Day>
-            <S.Points>
-              <S.Point></S.Point>
-              <S.Point></S.Point>
-            </S.Points>
-            <S.Day>
-              <S.Text>Hours</S.Text>
-              <S.Number>23</S.Number>
-            </S.Day>
-            <S.Points>
-              <S.Point></S.Point>
-              <S.Point></S.Point>
-            </S.Points>
-            <S.Day>
-              <S.Text>Minutes</S.Text>
-              <S.Number>19</S.Number>
-            </S.Day>
-            <S.Points>
-              <S.Point></S.Point>
-              <S.Point></S.Point>
-            </S.Points>
-            <S.Day>
-              <S.Text>Seconds</S.Text>
-              <S.Number>56</S.Number>
-            </S.Day>
-          </S.Days> */}
-        </S.divTitle>
+        <S.divTitle>{children}</S.divTitle>
         <Arrows />
       </S.div>
     </S.Header>
