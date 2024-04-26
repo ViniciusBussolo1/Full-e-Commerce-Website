@@ -1,8 +1,22 @@
 import styled from 'styled-components'
 
-// export const divCard = styled.div`
-//   width: 100%;
-// `
+export const divAdd = styled.div`
+  max-width: 16.875rem; //270px
+  width: 100%;
+
+  position: absolute;
+  bottom: 0;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  border-radius: 0 0 5px 5px;
+
+  text-align: center;
+
+  background-color: #000000;
+  color: #ffffff;
+`
 
 export const Card = styled.div`
   max-width: 16.875rem; //270px

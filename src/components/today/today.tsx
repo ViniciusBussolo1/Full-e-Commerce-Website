@@ -46,9 +46,9 @@ export function Today() {
 
         <S.divCards>
           <Card discount={true} numberDiscount="40" />
+          <Card discount={true} numberDiscount="40" addCard={true} />
           <Card discount={true} numberDiscount="40" />
-          <Card discount={true} numberDiscount="40" />
-          <Card discount={true} numberDiscount="40" />
+          <Card discount={true} numberDiscount="40" addCard={true} />
           <Card discount={true} numberDiscount="40" />
         </S.divCards>
 

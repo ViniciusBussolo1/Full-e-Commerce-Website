@@ -13,9 +13,10 @@ import * as S from './style'
 interface CardProps {
   discount?: boolean
   numberDiscount?: string
+  addCard?: boolean
 }
 
-export function Card({ numberDiscount, discount }: CardProps) {
+export function Card({ numberDiscount, discount, addCard }: CardProps) {
   return (
     <S.Card>
       <S.divImage>
@@ -33,6 +34,8 @@ export function Card({ numberDiscount, discount }: CardProps) {
         </S.Icons>
 
         <Image src={ImageCard} alt="Imagem do card" />
+
+        {addCard ? <S.divAdd>Add To Cart</S.divAdd> : ''}
       </S.divImage>
 
       <S.divDescription>
