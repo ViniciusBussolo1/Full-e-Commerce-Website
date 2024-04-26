@@ -1,19 +1,25 @@
 'use client'
 
-import { ArrowLeft, ArrowRight } from 'lucide-react'
+import { ComponentProps } from 'react'
+
+import { NameSection } from '../components-section/name-section/name-section'
+
+import { Arrows } from '../components-section/arrows/arrow'
 
 import * as S from './style'
 
-export function HeaderSection() {
+interface HeaderSectionProps extends ComponentProps<'header'> {
+  nameSection: string
+}
+
+export function HeaderSection({ nameSection, children }: HeaderSectionProps) {
   return (
     <S.Header>
-      <S.nameSection>
-        <S.divRectangle></S.divRectangle>
-        <S.spanName>Today’s</S.spanName>
-      </S.nameSection>
+      <NameSection name={nameSection} />
       <S.div>
         <S.divTitle>
-          <S.H1>Flash Sales</S.H1>
+          {children}
+          {/* <Title title={title} />
           <S.Days>
             <S.Day>
               <S.Text>Days</S.Text>
@@ -43,12 +49,9 @@ export function HeaderSection() {
               <S.Text>Seconds</S.Text>
               <S.Number>56</S.Number>
             </S.Day>
-          </S.Days>
+          </S.Days> */}
         </S.divTitle>
-        <S.divArrows>
-          <ArrowLeft />
-          <ArrowRight />
-        </S.divArrows>
+        <Arrows />
       </S.div>
     </S.Header>
   )

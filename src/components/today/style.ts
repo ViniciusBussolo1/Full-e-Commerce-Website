@@ -51,3 +51,44 @@ export const buttonAllProducts = styled.button`
   border: none;
   border-radius: 2%;
 `
+
+export const Days = styled.div`
+  max-width: 18.875rem; //302px
+  widht: 100%;
+
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; //12px
+`
+
+export const Day = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+
+export const Text = styled.span`
+  font-size: 0.75rem; //12px
+  font-weight: 600;
+  color: #000000;
+`
+
+export const Number = styled.span`
+  font-size: 2rem; //32px
+  font-weight: bold;
+  color: #000000;
+`
+
+export const Points = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; //8px
+`
+
+export const Point = styled.div`
+  width: 0.25rem; //4px
+  height: 0.25rem; //4px
+
+  border-radius: 50%;
+
+  background-color: #e07575;
+`
