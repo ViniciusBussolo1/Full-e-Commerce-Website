@@ -39,6 +39,14 @@ export const Li = styled.li`
   color: #000000;
 `
 
+export const spanLi = styled.span`
+  list-style: none;
+  text-decoration: none;
+  font-size: 1rem; //16px
+  font-weight: regular;
+  color: #000000;
+`
+
 export const divProfile = styled.div`
   max-width: 21.688rem; //347px
   width: 100%;

@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { Search, Heart, ShoppingCart } from 'lucide-react'
 
 import * as S from './styles'
@@ -12,10 +13,14 @@ export function Header() {
 
         <nav>
           <S.Ul>
-            <S.Li>Home</S.Li>
+            <Link href="/SignUp" style={{ textDecoration: 'none' }}>
+              <S.spanLi>Home</S.spanLi>
+            </Link>
             <S.Li>Contact</S.Li>
             <S.Li>About</S.Li>
-            <S.Li>Sign Up</S.Li>
+            <Link href="/SignUp" style={{ textDecoration: 'none' }}>
+              <S.spanLi>Sign Up</S.spanLi>
+            </Link>
           </S.Ul>
         </nav>
 
